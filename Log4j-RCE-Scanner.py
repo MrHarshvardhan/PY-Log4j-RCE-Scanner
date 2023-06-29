@@ -11,7 +11,7 @@ def check_required_commands(commands):
         print("\n\033[93mWarning: The following commands are required but not found on your system:\033[0m")
         for command in missing_commands:
             print("\033[93m{}\033[0m".format(command))
-        print("\033[94m\nMore Info: https://github.com/PY-Log4j-RCE-Scanner\033[0m")
+        print("\033[94m\nMore Info: https://github.com/MrHarshvardhan/PY-Log4j-RCE-Scanner/\033[0m")
         exit()
 
 def domain_scan(domain, burp_collab_id):
